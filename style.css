@@ -43,6 +43,10 @@ header a, footer a {
     font-weight: bold;
 }
 
+footer a::after {
+    content: '\1F517';
+}
+
 a:hover {
     text-decoration: underline;
 }
